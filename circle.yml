@@ -1,4 +1,5 @@
-## Customize the test machine
-machine:
-timezone:
-    America/Los_Angeles # Set the timezone
+## Custom notifications
+notify:
+  webhooks:
+    # A list of hashes representing hooks. Only the url field is supported.
+    - url: https://hooks.slack.com/services/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
